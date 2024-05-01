@@ -1,18 +1,10 @@
-import React from "react";
-import { Route, Routes } from "react-router-dom";
-import { SignIn, SignUp } from "./Pages";
+import React from 'react'
+
 
 const App = () => {
   return (
-    <div className=" w-screen h-screen ">
-      <Routes>
-        <Route path="/" element={<SignIn/>}/>
-        <Route path="/signUp" element={<SignUp/>}/>
-      </Routes>
-   
-    
-    </div>
-  );
-};
+    <div>App</div>
+  )
+}
 
-export default App;
+export default App
